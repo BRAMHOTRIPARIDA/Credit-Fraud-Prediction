@@ -40,6 +40,7 @@ Random Forest is based on the bagging algorithm and it builds many trees on subs
 This reduces overfitting and also reduces variance and thus improves accuracy.
 Also it works well with both categorical and continuous variables and is robust to outliers and can handle them automatically. 
 The top 10 features from this initial model is used for model enhancement.
+
 -----------------------------
 
 
@@ -49,12 +50,14 @@ Recall : The recall is a measure of the model correctly identifying True Positiv
 Thus for all the actual fraud transactions, recall tells us how many we correctly identified as being a fraud transaction.
 Recall = True Positives / (True Positives + False Negatives)
 Since the Recall is very low, upsampling the minority class ('isFraud' = 'True') to improve recall.
+
 -----------------------------
 
 
 5) Final model performance results :
 
 The accuracy is (99.7%) and recall is 100% on test data. So we can infer that the RandomForest model generalizes well. This leads to inferring that data overfitting might be less.
+
 -----------------------------
 
 
