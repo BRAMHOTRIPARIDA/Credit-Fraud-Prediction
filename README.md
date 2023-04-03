@@ -1,20 +1,26 @@
 # Credit Fraud Prediction
----------------------------------------------------
+-----------------------------
 Fraud is a problem for any bank and can take many forms ranging from stealing single credit card to using large number of stolen credit card numbers on the network, or a huge compromise of credit card numbers which are stolen from merchants via tools like credit card skimming devices.
 
-Objective : Build a predictive model based on historical transactions to determine whether a given transaction will be fraudulent or not.
 
-Dataset - https://github.com/CapitalOneRecruiting/DS 
+Objective : 
+-----------------------------
+Build a predictive model based on historical transactions to determine whether a given transaction will be fraudulent or not.
+
+
+Dataset :
+-----------------------------
+https://github.com/CapitalOneRecruiting/DS 
 
 
 Methodology :
----------------------------------------------------
+-----------------------------
 1) Data Summarization, Analysis and Visualization
 
 • Exploration
 
 • Correlation
-
+-----------------------------
 
 
 2) Data preprocessing : 
@@ -22,7 +28,7 @@ Methodology :
 • Handling missing values
 
 • Label encoding
-
+-----------------------------
 
 
 3) Modeling algorithm : Random Forest
@@ -32,7 +38,7 @@ Random Forest is based on the bagging algorithm and it builds many trees on subs
 This reduces overfitting and also reduces variance and thus improves accuracy.
 Also it works well with both categorical and continuous variables and is robust to outliers and can handle them automatically. 
 The top 10 features from this initial model is used for model enhancement.
-
+-----------------------------
 
 
 4) Model Enhancement :
@@ -41,13 +47,13 @@ Recall : The recall is a measure of the model correctly identifying True Positiv
 Thus for all the actual fraud transactions, recall tells us how many we correctly identified as being a fraud transaction.
 Recall = True Positives / (True Positives + False Negatives)
 Since the Recall is very low, upsampling the minority class ('isFraud' = 'True') to improve recall.
-
+-----------------------------
 
 
 5) Final model performance results :
 
 The accuracy is (99.7%) and recall is 100% on test data. So we can infer that the RandomForest model generalizes well. This leads to inferring that data overfitting might be less.
-
+-----------------------------
 
 
 Future Enhancements :
