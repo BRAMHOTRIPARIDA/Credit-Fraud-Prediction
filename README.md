@@ -10,14 +10,18 @@ Dataset - https://github.com/CapitalOneRecruiting/DS
 Methodology :
 ---------------------------------------------------
 1) Data Summarization, Analysis and Visualization
+
 • Exploration
+
 • Correlation
 
+
 2) Data preprocessing : 
----------------------------------------------------
+
 • Handling missing values
 
 • Label encoding
+
 
 3) Modeling algorithm : Random Forest
 ---------------------------------------------------
@@ -27,6 +31,7 @@ This reduces overfitting and also reduces variance and thus improves accuracy.
 Also it works well with both categorical and continuous variables and is robust to outliers and can handle them automatically. 
 The top 10 features from this initial model is used for model enhancement.
 
+
 4) Model Enhancement :
 ---------------------------------------------------
 Recall : The recall is a measure of the model correctly identifying True Positives. 
@@ -34,9 +39,11 @@ Thus for all the actual fraud transactions, recall tells us how many we correctl
 Recall = True Positives / (True Positives + False Negatives)
 Since the Recall is very low, upsampling the minority class ('isFraud' = 'True') to improve recall.
 
+
 5) Final model performance results :
 ---------------------------------------------------
 The accuracy is (99.7%) and recall is 100% on test data. So we can infer that the RandomForest model generalizes well. This leads to inferring that data overfitting might be less.
+
 
 Future Enhancements :
 ---------------------------------------------------
