@@ -1,4 +1,4 @@
-# Credit_Fraud_Prediction
+# Credit Fraud Prediction
 ---------------------------------------------------
 Fraud is a problem for any bank and can take many forms ranging from stealing single credit card to using large number of stolen credit card numbers on the network, or a huge compromise of credit card numbers which are stolen from merchants via tools like credit card skimming devices.
 
