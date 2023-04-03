@@ -10,9 +10,7 @@ Dataset - https://github.com/CapitalOneRecruiting/DS
 Methodology :
 ---------------------------------------------------
 1) Data Summarization, Analysis and Visualization
----------------------------------------------------
 • Exploration
-
 • Correlation
 
 2) Data preprocessing : 
