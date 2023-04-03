@@ -41,7 +41,7 @@ Since the Recall is very low, upsampling the minority class ('isFraud' = 'True')
 
 
 5) Final model performance results :
----------------------------------------------------
+-----------------------------------
 The accuracy is (99.7%) and recall is 100% on test data. So we can infer that the RandomForest model generalizes well. This leads to inferring that data overfitting might be less.
 
 
