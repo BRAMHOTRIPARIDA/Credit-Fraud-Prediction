@@ -46,7 +46,7 @@ The accuracy is (99.7%) and recall is 100% on test data. So we can infer that th
 
 
 Future Enhancements :
----------------------------------------------------
+-----------------------------------
 • Binning numerical fields - Binning the continuous features in the data can help improve the model performance on test data as it helps introduce non-linearity.
 
 • Using Stratified k fold Cross Validation - The upsampling of the minority class can increase the likelihood of overfitting because it makes exact copies of the minority class samples. Cross validation reduces overfitting and 5-fold Stratified k-fold Cross-Validation can be used to train RandomForest model. It provides train and test index to split data in train-test data sets. The stratified k fold cross-validation if used for classification problems with class imblance maintains the same class ratio throughout the K folds same as the ratio in the original dataset. This ensures that the cross-validation output result is a close approximation of the generalization error in the data. At each k-fold cross-validation split, only the training set is oversampled which can be achieved using a machine learning pipeline and this prevents data or information leakage from train to test data. This ensures that the test data is not oversampled.
