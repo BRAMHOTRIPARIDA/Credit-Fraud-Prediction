@@ -20,6 +20,7 @@ Methodology :
 • Exploration
 
 • Correlation
+
 -----------------------------
 
 
@@ -28,6 +29,7 @@ Methodology :
 • Handling missing values
 
 • Label encoding
+
 -----------------------------
 
 
